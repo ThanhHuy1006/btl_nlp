@@ -1,0 +1,12 @@
+(S (POSITIVE (REQUEST_MORE_INFO tell me more)))
+(S (POSITIVE (REQUEST_MORE_INFO can you give me more details)))
+(S (POSITIVE (EXPRESS_INTEREST I'm interested in this product)))
+(S (POSITIVE (EXPRESS_INTEREST this sounds interesting)))
+(S (POSITIVE (ASK_DETAIL can this product help me save costs)))
+(S (NEGATIVE (EXCUSE I'm not free at the moment)))
+(S (NEGATIVE (EXCUSE I can't talk right now)))
+(S (NEGATIVE (REJECT_OFFER no thanks)))
+(S (NEGATIVE (REJECT_OFFER I'm not interested in it)))
+(S
+  (NEGATIVE
+    (STATE_UNINTEREST I don't buy things from unsolicited calls)))
